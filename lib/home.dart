@@ -1,4 +1,5 @@
 
+
 import 'package:coffee_bar/coffe_prefs.dart';
 import 'package:coffee_bar/styled_body_text.dart';
 import 'package:flutter/material.dart';
@@ -28,7 +29,7 @@ class Home extends StatelessWidget {
           Container(
             color: Colors.brown[300],
             padding: const EdgeInsets.all(20),
-            child: const CoffePrefs(),
+            child: const CoffeePrefs(),
           ),
           Expanded(child: Image.asset('assets/img/coffee2.jpg',
           fit: BoxFit.fitHeight,
